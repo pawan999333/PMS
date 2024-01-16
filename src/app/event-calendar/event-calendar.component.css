@@ -93,10 +93,38 @@
   .blue {
     background-color: #0000FF;
   }
-
-  .odd-day {
-    background-color: green !important; 
-    color: white; 
+  ::ng-deep .dx-calendar-cell .td-container {
+    position: relative;
   }
+  
+  ::ng-deep .dx-calendar-cell .td-container .additional-div {
+    width: 100%;
+    height: 30px; /* Adjust the height as needed */
+    box-sizing: border-box; /* Include padding and border in the total width */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Text color */
+  }
+  
+  ::ng-deep .dx-calendar-cell .td-container.pastUnapproved .additional-div {
+    background-color: #ff3030; /* Red background color for past unapproved */
+  }
+  
+  ::ng-deep .dx-calendar-cell .td-container.futureApprovedLeaves .additional-div {
+    background-color: #FFA500; /* Yellow background color for future approved leaves */
+    /* Add any additional styling properties if needed */
+  }
+  
+  
+  
+  ::ng-deep .dx-calendar-cell .td-container .content-container {
+    position: relative;
+  }
+  
+  ::ng-deep .dx-calendar-cell .td-container .content-container span {
+    z-index: 1; /* Ensure text is above the additional div */
+  }
+  
   
 

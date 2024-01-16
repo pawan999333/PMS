@@ -1,19 +1,25 @@
-<!-- <dx-calendar></dx-calendar> -->
 <dx-calendar>
+  <span *dxTemplate="let cell of 'cell'">
+    <div class="td-container" [ngClass]="getCellCssClass(cell.date, cell.view)">
+      <div class="content-container">
+        <span>{{ cell.text }}</span>
+        <ng-container *ngIf="getCellCssClass(cell.date, cell.view) === 'pastUnapproved'">
+          <div class="additional-div red">User3</div>
+        </ng-container>
+        <ng-container *ngIf="getCellCssClass(cell.date, cell.view) === 'futureApprovedLeaves'">
+          <div class="additional-div yellow">User3</div>
+        </ng-container>
+      </div>
+    </div>
+  </span>
 </dx-calendar>
 
-
-
-
- <div class="boxes innerBody">
-    <span class="note">* Notes</span> 
-      <span><span class="green color-box"></span> :Future (and current) Approved leaves </span>
-      <span><span class="orange color-box"></span> :Future (and current) Unapproved </span>
-      <span><span class="grey color-box"></span> :Past Approved leaves </span>
-      <span><span class="red color-box"></span> :Past unapproved </span>
-      <span><span class="blue color-box"></span> :Rejected/Cancelled </span> 
-    </div> 
-
-
-
-
+<div class="boxes innerBody">
+  <span class="note">* Notes</span> 
+  <span><span class="green color-box"></span> :Future (and current) Approved leaves </span>
+  <span><span class="orange color-box"></span> :Future (and current) Unapproved </span>
+  <span><span class="grey color-box"></span> :Past Approved leaves </span>
+  <span><span class="red color-box"></span> :Past unapproved </span>
+  <span><span class="yellow color-box"></span> :Future Approved Leaves </span>
+  <span><span class="blue color-box"></span> :Rejected/Cancelled </span> 
+</div>

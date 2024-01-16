@@ -29,6 +29,7 @@ import { TechnologyDashboardComponent } from './technology-dashboard/technology-
 
 import { DxCalendarModule } from 'devextreme-angular';
 import { EventCalendarComponent } from './event-calendar/event-calendar.component';
+import { DxSchedulerModule } from 'devextreme-angular'; 
 
 
 
@@ -62,7 +63,8 @@ import { EventCalendarComponent } from './event-calendar/event-calendar.componen
     NgbModule,
     BrowserAnimationsModule,
     MatDatepickerModule,
-    DxCalendarModule
+    DxCalendarModule,
+    DxSchedulerModule
   ],
   providers: [],
   bootstrap: [AppComponent],
