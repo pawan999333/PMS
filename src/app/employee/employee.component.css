@@ -1,0 +1,58 @@
+.dashboard .innerBody {
+    max-width: 100%;
+
+}
+
+.col-2 {
+    width: 12%;
+}
+
+.col-10 {
+    width: 88%;
+}
+
+.boxFullWidth {
+    width: 100%;
+    padding-top: 10px;
+
+}
+
+
+.container-fluid {
+    max-height: 100vh;
+    overflow-y: auto;
+}
+
+.card-header {
+    background-color: #829b9b;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+button {
+    border-radius: 5px;
+    background-color: #e14a25;
+    color: white;
+    font-weight: bold;
+}
+
+.ng-valid {
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+.col-form-label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+a {
+    color: #e14a25;
+}
+
+.statusInput {
+    margin-left: 5%;
+}

@@ -1,0 +1,12 @@
+.col-2 {
+    width: 12%;
+}
+
+.col-10 {
+    width: 88%;
+}
+
+.conainer-fluid{
+    max-height: 100vh;
+    overflow-y: auto;
+}

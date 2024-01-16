@@ -1,0 +1,105 @@
+form{
+    font-family: 'Nunito',
+        sans-serif;
+}
+.dashboard .innerBody {
+    width: 100vw;
+}
+
+.card-header {
+    background-color: #829b9b;
+}
+
+.col-2 {
+    width: 12%;
+}
+
+.col-10 {
+    width: 88%;
+}
+
+.col-form-label {
+    font-weight: bold;
+    /* font-size: 20px; */
+}
+
+.dashboard .innerBody {
+    max-width: 100%;
+
+}
+
+/* .col-2 {
+    height: 100vh;
+} */
+
+.boxFullWidth {
+    width: 100%;
+    padding-top: 10px;
+
+}
+
+
+.container-fluid {
+    max-height: 100vh;
+    overflow-y: auto;
+}
+
+.col-12{
+    margin-left: 5%;
+}
+
+
+.card-header {
+    background-color: #829b9b;
+    /* display: flex;
+    justify-content: space-between; */
+}
+input, select{
+    background-color: #e9ecef;
+}
+
+span{
+    padding-right: 3%;
+    font-weight: bold;
+}
+
+/* label{
+    font-weight: bold;
+} */
+
+.ng-valid{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+button {
+    border-radius: 5px;
+    background-color: #e14a25;
+    color: white;
+    font-weight: bold;
+}
+
+.status_input {
+    margin-left: 5% !important;
+}
+
+
+
+
+.personal_details, .official_details{
+    background-color: white;
+}
+
+
+
+.text-data{
+    margin-top: 2%;
+    font-weight: bold;
+}
+
+.organization-details, .technology, .official_details{
+        margin-top: 2%;
+}
+
+
+

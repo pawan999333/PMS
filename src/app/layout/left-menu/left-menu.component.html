@@ -1,0 +1,150 @@
+<section class="sidebar w-100 h-100">
+  <div class="left-menu">
+    <a style="cursor: pointer" class="logo" routerLink="/dashboard"
+      ><img src="assets/img/logo.png" class="img-fluid"
+    /></a>
+
+    <div ngbAccordion #accordion="ngbAccordion">
+      <div ngbAccordionItem="first">
+        <h2 ngbAccordionHeader>
+          <button ngbAccordionButton>Support Tickets</button>
+        </h2>
+        <div ngbAccordionCollapse>
+          <div ngbAccordionBody>
+            <div>
+              <ng-template>
+                <a routerLink="/dashboard" [routerLinkActive]="['active']">
+                  <span>My Support Ticket</span>
+                </a>
+              </ng-template>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div ngbAccordionItem="fourth">
+        <h2 ngbAccordionHeader>
+          <button ngbAccordionButton>Attendance</button>
+        </h2>
+
+        <div ngbAccordionCollapse>
+          <div ngbAccordionBody>
+            <ng-template>
+              <a routerLink="/my-attendance" [routerLinkActive]="['active']">
+                <span>My Attendance</span>
+              </a>
+              <span>
+                <hr />
+              </span>
+              
+              <a routerLink="/attendance-summary" [routerLinkActive]="['active']">
+                <span>Attendance Summary</span>
+              </a>
+              
+              <span>
+                <hr />
+              </span>
+              <a routerLink="/holiday" [routerLinkActive]="['active']">
+                <span>Holidays</span>
+              </a>
+
+              <span>
+                <hr />
+              </span>
+
+              <a routerLink="/attandance" [routerLinkActive]="['active']">
+                <span>All Attendance</span>
+              </a>
+              
+              <span>
+                <hr />
+              </span>
+
+              <a
+                routerLink="/my-attendance-summary"
+                [routerLinkActive]="['active']"
+              >
+                <span>My Attendance Summary</span>
+              </a>
+              <span>
+                <hr />
+              </span>
+              <a routerLink="/employee-code" [routerLinkActive]="['active']">
+                <span>Employee Code</span>
+              </a>
+              <span>
+                <hr />
+              </span>
+              <a routerLink="/time-setting" [routerLinkActive]="['active']">
+                <span>Time Setting</span>
+              </a>
+            </ng-template>
+          </div>
+        </div>
+      </div>
+      <div ngbAccordionItem="fifth">
+        <h2 ngbAccordionHeader>
+          <button ngbAccordionButton>Leave</button>
+        </h2>
+        <div ngbAccordionCollapse>
+          <div ngbAccordionBody>
+            <ng-template>
+              <a routerLink="/my-leave" [routerLinkActive]="['active']">
+                <span>My Leave</span>
+              </a>
+            </ng-template>
+          </div>
+        </div>
+      </div>
+
+      <div ngbAccordionItem="chatgpt">
+        <h2 ngbAccordionHeader>
+          <button ngbAccordionButton>CHATGPT</button>
+        </h2>
+        <div ngbAccordionCollapse>
+          <div ngbAccordionBody>
+            <ng-template>
+              <a routerLink="/chatgpt" [routerLinkActive]="['active']">
+                <span>Search Field </span>
+              </a>
+              <span><hr /></span>
+
+              <a routerLink="/chatgptData" [routerLinkActive]="['active']">
+                <span> Chatgpt Data </span>
+              </a>
+            </ng-template>
+          </div>
+        </div>
+      </div>
+      <div ngbAccordionItem="wfh">
+        <h2 ngbAccordionHeader>
+          <button ngbAccordionButton>WFH</button>
+        </h2>
+        <div ngbAccordionCollapse>
+          <div ngbAccordionBody>
+            <ng-template>
+              <a routerLink="/My WFH" [routerLinkActive]="['active']">
+                <span>My WFH</span>
+              </a>
+              
+            </ng-template>
+          </div>
+        </div>
+      </div>
+
+      <div ngbAccordionItem="profile">
+        <h2 ngbAccordionHeader>
+          <button ngbAccordionButton>Profile</button>
+        </h2>
+        <div ngbAccordionCollapse>
+          <div ngbAccordionBody>
+            <ng-template>
+              <a routerLink="/profile" [routerLinkActive]="['active']">
+                <span>Profile</span>
+              </a>
+            </ng-template>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,70 @@
+
+
+<!-- <div class="row align-items-stretch g-0">
+  <div class="col-2">
+    <app-left-menu></app-left-menu>
+  </div>
+  <div class="col-10"> -->
+    <div class="container-fluid">
+      <div class="innerBody">
+        <div class="boxFullWidth">
+          <div class="card">
+            <div class="card-header">
+              <h3>Attendance Summary</h3>
+            </div>
+            <div class="card-body">
+              <form>
+                <div class="mb-3 row">
+                  <label
+                    for="table-filtering-search"
+                    class="col-xs-3 col-sm-auto col-form-label"
+                    >Date:</label
+                  >
+                  <div class="col-xs-3 col-sm-auto">
+                    <input
+                      id="table-filtering-search"
+                      class="form-control"
+                      type="text"
+                    />
+                  </div>
+                </div>
+              </form>
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Month</th>
+                                <th scope="col">Year</th>
+                                <th scope="col">Total Working Days</th>
+                                <th scope="col">Present Days</th>
+                                <th scope="col">Leave</th>
+                                <th scope="col">Extra Working Days</th>
+                                <th scope="col">Carry Over</th>
+                                <th scope="col">Earned Leave</th>
+                                <th scope="col">Late Leave</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let item of myAttendanceListData">
+                                <td>{{ item.id }}</td>
+                                <td>{{ item.month }}</td>
+                                <td>{{ item.year }}</td>
+                                <td>{{ item.total_working_days }}</td>
+                                <td>{{ item.present_days }}</td>
+                                <td>{{ item.leave }}</td>
+                                <td>{{ item.extra_working_days }}</td>
+                                <td>{{ item.carry_over }}</td>
+                                <td>{{ item.earned_leave }}</td>
+                                <td>{{ item.late_leave}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- </div>
+</div> -->

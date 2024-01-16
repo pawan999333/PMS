@@ -1,0 +1,449 @@
+{
+  "seller": [
+    {
+      "name": "pawan",
+      "email": "pawan@email.com",
+      "password": "333333",
+      "id": 1
+    },
+    {
+      "name": "pawan3",
+      "email": "pawan@email.com",
+      "password": "333333",
+      "id": 2
+    },
+    {
+      "name": "pks",
+      "password": "111111",
+      "email": "user3@yopmail.com",
+      "id": 3
+    },
+    {
+      "name": "",
+      "password": "111111",
+      "email": "user3@yopmail.com",
+      "id": 4
+    },
+    {
+      "name": "",
+      "password": "111111",
+      "email": "user3@yopmail.com",
+      "id": 5
+    },
+    {
+      "name": "don",
+      "password": "111111",
+      "email": "user3@yopmail.com",
+      "id": 6
+    },
+    {
+      "name": "pawan",
+      "password": "eee",
+      "email": "john@gmail.com",
+      "id": 7
+    }
+  ],
+  "products": [
+    {
+      "name": "samsung j2 nokia",
+      "price": "012",
+      "color": "red green",
+      "category": "mobile laptop",
+      "description": "mobile ",
+      "image": "https://www.creativepixelmag.com/wp-content/uploads/2020/01/E-Commerce-Development-Companies.jpg",
+      "id": 1
+    },
+    {
+      "name": "pen drive",
+      "price": "222",
+      "color": "black",
+      "category": "laptop",
+      "description": "32 GB",
+      "image": "https://thumbor.forbes.com/thumbor/fit-in/x/https://www.forbes.com/uk/advisor/wp-content/uploads/2020/11/phones-switch-apps.jpg",
+      "id": 2
+    },
+    {
+      "name": "honda",
+      "price": "121212",
+      "color": "white",
+      "category": "bike",
+      "description": "two vechile",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNqgCsgbCSQOtloOUqokYGkKo0fHBNn2eyZ1HlyWxvdNrgUUanbyN4tyHCXBXrJ2lkywU&usqp=CAU",
+      "id": 3
+    },
+    {
+      "name": "honda super",
+      "price": "121212",
+      "color": "white",
+      "category": "bike",
+      "description": "two vechile",
+      "image": "https://previews.123rf.com/images/maxxyustas/maxxyustas1510/maxxyustas151000013/47014857-online-shopping-concept-mobile-phone-or-smartphone-with-cart-and-boxes-and-bag-3d.jpg",
+      "id": 4
+    },
+    {
+      "name": "bmw",
+      "price": "393939",
+      "color": "black",
+      "category": "car",
+      "description": "four vechile",
+      "image": "https://previews.123rf.com/images/maxxyustas/maxxyustas1510/maxxyustas151000013/47014857-online-shopping-concept-mobile-phone-or-smartphone-with-cart-and-boxes-and-bag-3d.jpg",
+      "id": 5
+    },
+    {
+      "name": "realme 6i",
+      "price": "333999",
+      "color": "black",
+      "category": "mobile",
+      "description": "this is a touch mobile",
+      "image": "https://cdn1.smartprix.com/rx-ibsJ2hNrF-w1200-h1200/bsJ2hNrF.jpg",
+      "id": 6
+    }
+  ],
+  "holiday":[
+    {
+      "date": "11/12/2023",
+      "description": "urgent work",
+      "id": 1
+    },
+    {
+      "date": "11/02/2023",
+      "description": "traveling",
+      "id": 2
+    },
+    {
+      "date": "01/12/2023",
+      "description": "urgent work",
+      "id": 3
+    },
+    {
+      "date": "01/01/2024",
+      "description": "not-available",
+      "id": 4
+    },
+    {
+      "date": "11/12/2023",
+      "description": "work from home",
+      "id": 5
+    },
+    {
+      "date": "01/12/2023",
+      "description": "urgent work",
+      "id": 6
+    },
+    {
+      "date": "11/06/2023",
+      "description": "urgent work",
+      "id": 7
+    },
+    {
+      "date": "01/05/2023",
+      "description": "festival",
+      "id": 8
+    }
+  ],
+  "my-leave":[
+    {
+      "employee_code": "111",
+      "employee_name": "user3",
+      "From": "10/06/2023",
+      "To": "12/06/2023",
+      "Days": "3",
+      "Type": "Full Day",
+      "Leave_time": "",
+      "Description": "Urgent Work",
+      "Status": "Approved",
+      "id": 1
+    },
+    {
+      "employee_code": "111",
+      "employee_name": "user3",
+      "From": "10/06/2023",
+      "To": "12/06/2023",
+      "Days": "3",
+      "Type": "Full Day",
+      "Leave_time": "",
+      "Description": "Urgent Work",
+      "Status": "Approved",
+      "id": 2
+    },
+    {
+      "employee_code": "111",
+      "employee_name": "user3",
+      "From": "10/06/2023",
+      "To": "12/06/2023",
+      "Days": "3",
+      "Type": "Full Day",
+      "Leave_time": "",
+      "Description": "Urgent Work",
+      "Status": "Approved",
+      "id": 3
+    },
+    {
+      "employee_code": "111",
+      "employee_name": "user3",
+      "From": "10/06/2023",
+      "To": "12/06/2023",
+      "Days": "3",
+      "Type": "Full Day",
+      "Leave_time": "",
+      "Description": "Urgent Work",
+      "Status": "Approved",
+      "id": 4
+    },
+    {
+      "employee_code": "111",
+      "employee_name": "user3",
+      "From": "10/06/2023",
+      "To": "12/06/2023",
+      "Days": "3",
+      "Type": "Full Day",
+      "Leave_time": "",
+      "Description": "Urgent Work",
+      "Status": "Approved",
+      "id": 5
+    },
+    {
+      "employee_code": "111",
+      "employee_name": "user3",
+      "From": "10/06/2023",
+      "To": "10/06/2023",
+      "Days": "1",
+      "Type": "Full Day",
+      "Leave_time": "",
+      "Description": "Urgent Work",
+      "Status": "Approved",
+      "id": 6
+    },
+    {
+      "employee_code": "111",
+      "employee_name": "user3",
+      "From": "10/06/2023",
+      "To": "12/06/2023",
+      "Days": "3",
+      "Type": "Full Day",
+      "Leave_time": "",
+      "Description": "Urgent Work",
+      "Status": "Approved",
+      "id": 7
+    },
+    {
+      "employee_code": "111",
+      "employee_name": "user3",
+      "From": "10/06/2023",
+      "To": "12/06/2023",
+      "Days": "3",
+      "Type": "Full Day",
+      "Leave_time": "",
+      "Description": "Urgent Work",
+      "Status": "Approved",
+      "id": 8
+    },
+    {
+      "employee_code": "111",
+      "employee_name": "user3",
+      "From": "10/06/2023",
+      "To": "12/06/2023",
+      "Days": "3",
+      "Type": "Full Day",
+      "Leave_time": "",
+      "Description": "Urgent Work",
+      "Status": "Approved",
+      "id": 9
+    }
+  ],
+  "my-attendance-summary":[
+    {
+      "id": 1,
+      "month": 12,
+      "year": 2023,
+      "total_working_days": 27,
+      "present_days": 23,
+      "leave": 3,
+      "extra_working_days": 1,
+      "carry_over": 1,
+      "earned_leave": 1,
+      "late_leave": 1
+    },
+    {
+      "id": 2,
+      "month": 11,
+      "year": 2023,
+      "total_working_days": 27,
+      "present_days": 23,
+      "leave": 3,
+      "extra_working_days": 1,
+      "carry_over": 1,
+      "earned_leave": 1,
+      "late_leave": 1
+    }
+  ],
+  "dashboard":[
+    {
+      "id":1,
+      "query_type":"bug",
+      "type":"software",
+      "query":"",
+      "priority":"",
+      "status":"",
+      "last_comment":"",
+      "assigned_at":"",
+      "action":""
+    },
+    {
+      "id": 2,
+      "query_type": "web",
+      "type": "software",
+      "query": "",
+      "priority": "",
+      "status": "",
+      "last_comment": "",
+      "assigned_at": "",
+      "action": ""
+    },
+     {
+       "id": 3,
+       "query_type": "google",
+       "type": "software",
+       "query": "",
+       "priority": "",
+       "status": "",
+       "last_comment": "",
+       "assigned_at": "",
+       "action": ""
+     },
+      {
+        "id": 4,
+        "query_type": "microsoft",
+        "type": "software",
+        "query": "",
+        "priority": "",
+        "status": "",
+        "last_comment": "",
+        "assigned_at": "",
+        "action": ""
+      },
+       {
+         "id": 5,
+         "query_type": "amazon",
+         "type": "software",
+         "query": "java",
+         "priority": "1",
+         "status": "0",
+         "last_comment": "",
+         "assigned_at": "",
+         "action": ""
+       }
+  ],
+  "my-attendance":[
+    {
+      "id":1,
+      "date":"01/01/2024",
+      "day":"monday",
+      "in_time":"09:30AM",
+      "out_time":"7:30PM",
+      "status":"1",
+      "time":"",
+      "action":""
+    },
+     {
+       "id": 2,
+       "date": "03/01/2024",
+       "day": "tuesday",
+       "in_time": "10:30AM",
+       "out_time": "7:30PM",
+       "status": "1",
+       "time": "",
+       "action": ""
+     },
+      {
+        "id": 3,
+        "date": "03/01/2024",
+        "day": "tuesday",
+        "in_time": "10:30AM",
+        "out_time": "7:30PM",
+        "status": "1",
+        "time": "",
+        "action": ""
+      },
+       {
+         "id": 4,
+         "date": "03/01/2024",
+         "day": "tuesday",
+         "in_time": "10:30AM",
+         "out_time": "7:30PM",
+         "status": "1",
+         "time": "",
+         "action": ""
+       },
+        {
+          "id": 5,
+          "date": "03/01/2024",
+          "day": "tuesday",
+          "in_time": "10:30AM",
+          "out_time": "7:30PM",
+          "status": "1",
+          "time": "",
+          "action": ""
+        }
+  ],
+
+  "time-setting":[
+    {
+      "id":1,
+      "employee_code":"111",
+      "employee_name":"111",
+      "start_date":"111",
+      "end_date":"111",
+      "time":"111",
+      "action":""
+    }
+  ],
+
+  "employee-code":[
+    {
+      "id":1,
+      "employee_code":"222",
+      "employee_name":"333",
+      "joining_date":"rrr",
+      "designation":"",
+      "access_code":"",
+      "action":""
+  }
+],
+
+"attandance":[
+  {
+    "id":1,
+    "employee_code":"",
+    "employee_name":"",
+    "date":"01/01/2024",
+    "day":"",
+    "in_time":"09:30AM",
+    "out_time":"7:30PM",
+    "status":"",
+    "time":"",
+    "action":""
+  }
+],
+"attendance-summary":[
+  {
+    "id":1,
+    "employee_code":"111",
+    "name":"user3",
+    "month":"",
+    "year":"2024",
+    "total_working_days":"3",
+    "present_days":"2",
+    "leave":"1",
+    "extra_working_days":"",
+    "carry_over":"",
+    "earned_leave":"",
+    "late_leave":"",
+    "total_leave":"",
+    "balanced_leave":"",
+    "holiday":"",
+    "status":"",
+    "action":""
+  }
+]
+}
