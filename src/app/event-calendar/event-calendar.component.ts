@@ -6,44 +6,43 @@ import { Component, AfterViewInit } from '@angular/core';
   styleUrls: ['./event-calendar.component.css']
 })
 export class EventCalendarComponent {
-  
-  federalHolidays = [
-    this.changeYear(new Date('2024-01-01T00:00:00.000Z')),
-    this.changeYear(new Date('2024-01-02T00:00:00.000Z')),
-  ];
 
-  federalHolidays2 = [
-    this.changeYear(new Date('2024-01-03T00:00:00.000Z')),
-    this.changeYear(new Date('2024-01-05T00:00:00.000Z')),
+  federalHolidays = [
+    { startDate: this.changeYear(new Date('2024-01-01T00:00:00.000Z')), endDate: this.changeYear(new Date('2024-01-02T23:59:59.999Z')), colorClass: 'pastUnapproved', cellText: 'User3' },
+    { startDate: this.changeYear(new Date('2024-01-03T00:00:00.000Z')), endDate: this.changeYear(new Date('2024-01-05T23:59:59.999Z')), colorClass: 'futureUnapprovedLeaves', cellText: 'Pawan' },
+    { startDate: this.changeYear(new Date('2024-01-09T00:00:00.000Z')), endDate: this.changeYear(new Date('2024-01-10T23:59:59.999Z')), colorClass: 'rejected', cellText: 'Pawan' },
+    { startDate: this.changeYear(new Date('2024-01-21T00:00:00.000Z')), endDate: this.changeYear(new Date('2024-01-23T23:59:59.999Z')), colorClass: 'futureApprovedLeaves', cellText: 'User1' },
+    { startDate: this.changeYear(new Date('2024-01-30T00:00:00.000Z')), endDate: this.changeYear(new Date('2024-01-31T00:00:00.000Z')), colorClass: 'pastApprovedLeaves', cellText: 'User9' },
+
+
   ];
 
   getCellCssClass(date: any, view: any) {
     let cssClass = '';
-    let cellText = '';
 
     this.federalHolidays.forEach((item) => {
-      if (date !== undefined) {
-        if (this.isSameDate(date, item) && view !== 'year') {
-          cssClass = 'pastUnapproved';
-          cellText = 'User3';
-        }
-      }
-    });
-
-    this.federalHolidays2.forEach((item) => {
-      if (date !== undefined) {
-        if (this.isSameDate(date, item) && view !== 'year') {
-          cssClass = 'futureApprovedLeaves';
-          cellText = 'future Approved Leaves';
-        }
+      if (date !== undefined && this.isDateInRange(date, item.startDate, item.endDate) && view !== 'year') {
+        cssClass = item.colorClass;
       }
     });
 
     return cssClass;
   }
 
-  private isSameDate(date1: Date, date2: Date): boolean {
-    return date1.getDate() === date2.getDate() && date1.getMonth() === date2.getMonth();
+  getCellText(date: any): string {
+    let cellText = '';
+
+    this.federalHolidays.forEach((item) => {
+      if (date !== undefined && this.isDateInRange(date, item.startDate, item.endDate)) {
+        cellText = item.cellText;
+      }
+    });
+
+    return cellText;
+  }
+
+  private isDateInRange(date: Date, startDate: Date, endDate: Date): boolean {
+    return date.getTime() >= startDate.getTime() && date.getTime() <= endDate.getTime();
   }
 
   private changeYear(date: Date): Date {

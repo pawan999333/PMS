@@ -4,15 +4,26 @@
       <div class="content-container">
         <span>{{ cell.text }}</span>
         <ng-container *ngIf="getCellCssClass(cell.date, cell.view) === 'pastUnapproved'">
-          <div class="additional-div red">User3</div>
+          <div class="additional-div red">{{ getCellText(cell.date) }}</div>
+        </ng-container>
+        <ng-container *ngIf="getCellCssClass(cell.date, cell.view) === 'futureUnapprovedLeaves'">
+          <div class="additional-div yellow">{{ getCellText(cell.date) }}</div>
+        </ng-container>
+        <ng-container *ngIf="getCellCssClass(cell.date, cell.view) === 'rejected'">
+          <div class="additional-div blue">{{ getCellText(cell.date) }}</div>
         </ng-container>
         <ng-container *ngIf="getCellCssClass(cell.date, cell.view) === 'futureApprovedLeaves'">
-          <div class="additional-div yellow">User3</div>
+          <div class="additional-div yellow">{{ getCellText(cell.date) }}</div>
+        </ng-container>
+        <ng-container *ngIf="getCellCssClass(cell.date, cell.view) === 'pastApprovedLeaves'">
+          <div class="additional-div grey">{{ getCellText(cell.date) }}</div>
         </ng-container>
       </div>
     </div>
   </span>
 </dx-calendar>
+
+
 
 <div class="boxes innerBody">
   <span class="note">* Notes</span> 

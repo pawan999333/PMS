@@ -445,5 +445,14 @@
     "status":"",
     "action":""
   }
-]
+],
+
+
+  "federalHolidays": [
+    { "startDate": "2024-01-01T00:00:00.000Z", "endDate": "2024-01-02T23:59:59.999Z", "colorClass": "pastUnapproved", "cellText": "User3" },
+    { "startDate": "2024-01-03T00:00:00.000Z", "endDate": "2024-01-05T23:59:59.999Z", "colorClass": "futureApprovedLeaves", "cellText": "Pawan" },
+    { "startDate": "2024-01-09T00:00:00.000Z", "endDate": "2024-01-10T23:59:59.999Z", "colorClass": "rejected", "cellText": "Pawan" }
+  ]
+
+
 }
